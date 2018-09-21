@@ -75,6 +75,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener, IUserView {
         edt_username.setText("")
         edt_age.setText("")
         Toast.makeText(this, "保存成功", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "保存成功", Toast.LENGTH_SHORT).show()
     }
 
     /**
