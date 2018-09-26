@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AndroidFrameWork_koltin</string>
+    <string name="data_f">response : %s</string>
 </resources>

@@ -3,7 +3,7 @@ arguments :
 -HE:\qijiaProjectIng\AndroidFrameWork_koltin\app
 -BE:\qijiaProjectIng\AndroidFrameWork_koltin\app\.externalNativeBuild\cmake\release\x86
 -DANDROID_ABI=x86
--DANDROID_PLATFORM=android-23
+-DANDROID_PLATFORM=android-14
 -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\qijiaProjectIng\AndroidFrameWork_koltin\app\build\intermediates\cmake\release\obj\x86
 -DCMAKE_BUILD_TYPE=Release
 -DANDROID_NDK=F:\AndroidStudioSDK\ndk-bundle

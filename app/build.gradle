@@ -1,16 +1,31 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
-apply plugin: 'kotlin-kapt'
+//apply plugin: 'kotlin-kapt'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+
     defaultConfig {
         applicationId "com.chieveke.androidframework"
-        minSdkVersion 23
-        targetSdkVersion 27
-        versionCode 1
-        versionName "1.0"
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.android.versionCode
+        versionName rootProject.ext.android.versionName
+
+//        javaCompileOptions {
+//            annotationProcessorOptions {
+//                arguments = [moduleName: project.getName(),"room.schemaLocation": "$projectDir/schemas".toString()]
+//            }
+//        }
+        //指定room.schemaLocation生成的文件路径
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = ["room.schemaLocation": "$projectDir/schemas".toString()]
+            }
+        }
+
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
             cmake {
@@ -29,32 +44,56 @@ android {
             path "CMakeLists.txt"
         }
     }
+    lintOptions {
+        abortOnError false
+    }
 }
-//为Dagger创建了需要的自生成类
-kapt {
-    generateStubs = true
-}
+////为Dagger创建了需要的自生成类
+//kapt {
+//    generateStubs = true
+//}
 
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation 'com.android.support:appcompat-v7:27.1.1'
-    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    api(rootProject.ext.dependencies["appcompat-v7"], {
+        exclude module: 'support-annotations'
+        exclude module: 'support-v4'
+    })
+    api(rootProject.ext.dependencies["support-v4"], {
+        exclude module: 'support-annotations'
+    })
+    api(rootProject.ext.dependencies["design"], {
+        exclude module: 'support-annotations'
+    })
+    api rootProject.ext.dependencies["recyclerview-v7"]
+//    api(rootProject.ext.dependencies["constraint-layout"], {
+//        exclude group: 'com.android.support', module: 'support-annotations'
+//    })
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:1.0.2'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-
-    compile 'com.squareup.okhttp3:logging-interceptor:3.6.0'
-    compile 'com.squareup.retrofit2:adapter-rxjava:2.3.0'
-    compile 'io.reactivex:rxandroid:1.2.1'
-    compile 'io.reactivex:rxkotlin:0.55.0'
-    compile 'com.squareup.retrofit2:retrofit:2.4.0'
-    compile 'com.squareup.retrofit2:converter-gson:2.4.0'
-
+//    testImplementation 'junit:junit:4.12'
+//    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+//    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    //    compile 'com.squareup.okhttp3:logging-interceptor:3.6.0'
+    //    compile 'com.squareup.retrofit2:adapter-rxjava:2.3.0'
+    //    compile 'io.reactivex:rxandroid:1.2.1'
+    //    compile 'io.reactivex:rxkotlin:0.55.0'
+    //    compile 'com.squareup.retrofit2:retrofit:2.4.0'
+    //    compile 'com.squareup.retrofit2:converter-gson:2.4.0'
+    //
+    //    implementation 'com.google.dagger:dagger:2.15'
+    //    kapt 'com.google.dagger:dagger-compiler:2.15'
+    //
+    //    //Timber是一个轻量级的第三方库，能够帮助开发者更好的使用Android Log。
+    //    compile "com.jakewharton.timber:timber:4.7.0"
+    implementation project(':arms')
     implementation 'com.google.dagger:dagger:2.15'
-    kapt 'com.google.dagger:dagger-compiler:2.15'
+    annotationProcessor "com.google.dagger:dagger-compiler:2.15"
+    //阿里的Arouter的apt注解
+//    annotationProcessor rootProject.ext.dependencies["arouter-compiler"]
+    annotationProcessor rootProject.ext.dependencies["room-compiler"]
 
-    //Timber是一个轻量级的第三方库，能够帮助开发者更好的使用Android Log。
-    compile "com.jakewharton.timber:timber:4.7.0"
+    implementation rootProject.ext.dependencies["butterknife"]
+    annotationProcessor rootProject.ext.dependencies["butterknife-compiler"]
 }
