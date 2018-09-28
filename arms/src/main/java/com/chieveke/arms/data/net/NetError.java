@@ -1,9 +1,10 @@
 package com.chieveke.arms.data.net;
 
 /**
- * @creator:denghc(desoce)
- * @updateTime:2018/7/30 13:50
- * @description:  network anomaly
+ * @description: network anomaly
+ * @author: chieveke
+ * @date: 2018/9/28 15:11
+ * @version: V1.0
  */
 public class NetError extends Exception {
     private Throwable exception;

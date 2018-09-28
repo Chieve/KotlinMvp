@@ -12,13 +12,11 @@ import com.trello.rxlifecycle2.LifecycleTransformer;
 
 import javax.inject.Inject;
 
-
 /**
- * @creator：denghc(desoce)
- * @updateTime：2018/7/30 13:20
- * @description： XDaggerActivity is  MVP by Dagger2
- *
- *
+ * @description: XDaggerActivity is  MVP by Dagger2
+ * @author: chieveke
+ * @date: 2018/9/28 15:10
+ * @version: V1.0
  */
 public abstract class XDaggerActivity<T extends IBasePresenter> extends BaseActivity implements IBaseView, ISupportDagger {
 

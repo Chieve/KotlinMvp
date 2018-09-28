@@ -7,9 +7,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 创建者     邓浩宸
- * 创建时间   2017/3/29 11:55
- * 描述	      ${TODO}
+ * @description:
+ * @author: chieveke
+ * @date: 2018/9/28 15:07
+ * @version: V1.0
  */
 public class AsLibUtil {
 

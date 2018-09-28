@@ -13,9 +13,10 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 /**
- * @creator:denghc(desoce)
- * @updateTime:2018/7/30 13:47
- * @description:  Cache policy interceptor class  ,add  cache to okHttp .
+ * @description: Cache policy interceptor class  ,add  cache to okHttp .
+ * @author: chieveke
+ * @date: 2018/9/28 15:11
+ * @version: V1.0
  */
 public class CacheInterceptor implements Interceptor {
     private Context mContext;

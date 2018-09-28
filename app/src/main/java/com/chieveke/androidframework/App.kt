@@ -2,7 +2,6 @@ package com.chieveke.androidframework
 
 import com.chieveke.arms.base.BaseApplication
 import timber.log.Timber
-import javax.inject.Inject
 
 
 /**
@@ -13,13 +12,8 @@ import javax.inject.Inject
  */
 class App : BaseApplication() {
 
-    @Inject
-    lateinit var helloWorld:String
-
     override fun onCreate() {
         super.onCreate()
-
-//        DaggerAppComponent.create().inject(this)
         //  timber Log管理
         if (BuildConfig.DEBUG) {
             Timber.plant(object : Timber.DebugTree() {

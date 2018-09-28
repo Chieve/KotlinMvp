@@ -22,9 +22,10 @@ import io.reactivex.subjects.BehaviorSubject;
 import me.yokeyword.fragmentation.SupportActivity;
 
 /**
- * @creator:denghc(desoce)
- * @updateTime:2018/7/30 11:59
  * @description: BaseActivity by no mvp
+ * @author: chieveke
+ * @date: 2018/9/28 15:08
+ * @version: V1.0
  */
 public abstract class BaseActivity extends SupportActivity implements LifecycleProvider<ActivityEvent>,ISupportBaseActivity {
 

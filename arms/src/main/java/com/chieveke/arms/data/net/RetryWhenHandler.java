@@ -10,9 +10,10 @@ import io.reactivex.functions.Function;
 import retrofit2.HttpException;
 
 /**
- * 创建者：邓浩宸
- * 时间 ：2017/5/24 10:27
- * 描述 ：重连机制
+ * @description: 重连机制
+ * @author: chieveke
+ * @date: 2018/9/28 15:11
+ * @version: V1.0
  */
 public class RetryWhenHandler implements Function<Flowable<? extends Throwable>, Flowable<?>> {
 

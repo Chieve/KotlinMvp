@@ -18,9 +18,10 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
- * 创建者：邓浩宸
- * 时间 ：2017/5/11 11:37
- * 描述 ：IM图片解码器
+ * @description: IM图片解码器
+ * @author: chieveke
+ * @date: 2018/9/28 15:03
+ * @version: V1.0
  */
 public class BitmapDecoder {
     public static Bitmap decode(InputStream is) {

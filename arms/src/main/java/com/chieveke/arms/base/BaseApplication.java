@@ -10,11 +10,11 @@ import com.chieveke.arms.di.component.DaggerAppComponent;
 import com.chieveke.arms.framework.ISupportApplication;
 import com.chieveke.arms.framework.XAppDelegate;
 
-
 /**
- * @creator：denghc(desoce)
- * @updateTime：2018/7/30 12:00
- * @description： BaseApplication
+ * @description: BaseApplication
+ * @author: chieveke
+ * @date: 2018/9/28 15:08
+ * @version: V1.0
  */
 public class BaseApplication extends Application implements ISupportApplication {
     private XAppDelegate xAppDelegate;

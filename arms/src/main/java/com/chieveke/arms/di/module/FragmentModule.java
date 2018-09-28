@@ -8,11 +8,11 @@ import com.chieveke.arms.di.FragmentScope;
 import dagger.Module;
 import dagger.Provides;
 
-
 /**
- * 创建者：邓浩宸
- * 时间 ：2017/3/21 10:53
- * 描述 ：TODO 请描述该类职责
+ * @description: TODO 请描述该类职责
+ * @author: chieveke
+ * @date: 2018/9/28 14:59
+ * @version: V1.0
  */
 @Module
 public class FragmentModule {

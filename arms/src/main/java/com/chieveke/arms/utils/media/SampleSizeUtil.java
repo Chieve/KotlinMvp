@@ -3,9 +3,10 @@ package com.chieveke.arms.utils.media;
 import android.opengl.GLES10;
 
 /**
- * 创建者：邓浩宸
- * 时间 ：2017/5/11 11:37
- * 描述 ：IM计算图片size和采样率
+ * @description: IM计算图片size和采样率
+ * @author: chieveke
+ * @date: 2018/9/28 15:03
+ * @version: V1.0
  */
 public class SampleSizeUtil {
 	

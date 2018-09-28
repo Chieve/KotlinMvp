@@ -9,11 +9,11 @@ import java.util.Calendar;
 import java.util.Date;
 
 /**
- * 创建者：zp
- * 时间 ：2017/3/10 0010 下午 4:07
- * 描述 ：日期操作工具类.
+ * @description: 日期操作工具类
+ * @author: chieveke
+ * @date: 2018/9/28 15:05
+ * @version: V1.0
  */
-
 public class DateUtil {
 
     /**

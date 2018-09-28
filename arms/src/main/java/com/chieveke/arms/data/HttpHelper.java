@@ -29,9 +29,10 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 
 /**
- * 创建者：邓浩宸
- * 时间 ：2016/11/15 15:59
- * 描述 ：网络请求的辅助类
+ * @description: 网络请求的辅助类
+ * @author: chieveke
+ * @date: 2018/9/28 14:56
+ * @version: V1.0
  */
 public class HttpHelper implements IDataHelper {
 

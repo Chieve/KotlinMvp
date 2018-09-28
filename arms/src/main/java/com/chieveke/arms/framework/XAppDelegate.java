@@ -18,11 +18,11 @@ import com.chieveke.arms.utils.AppUtil;
 import com.chieveke.arms.utils.AsLibUtil;
 import com.chieveke.arms.utils.sys.ScreenUtil;
 
-
 /**
- * @creator：denghc(desoce)
- * @updateTime： 2018/6/20 10:43
- * @description： Application delegate
+ * @description: Application delegate
+ * @author: chieveke
+ * @date: 2018/9/28 15:03
+ * @version: V1.0
  */
 public interface XAppDelegate {
 
@@ -40,8 +40,7 @@ public interface XAppDelegate {
 
     DaggerAppComponent.Builder getAppComponentBuilder();
 
-     XAppDelegate netConfig(IDataHelper.NetConfig netConfig) ;
-
+    XAppDelegate netConfig(IDataHelper.NetConfig netConfig);
 
 
     public class DefaultAppDelegate implements XAppDelegate {
@@ -89,20 +88,23 @@ public interface XAppDelegate {
             AsLibUtil.onTrimMemoryAsLibrary(application, level);
         }
 
+        @Override
         public DaggerAppComponent.Builder getAppComponentBuilder() {
             return builder = DaggerAppComponent.builder()
                     .dataModule(new DataModule(mNetConfig))
                     .appModule(new AppModule((BaseApplication) application));
         }
 
+        @Override
         public AppComponent getAppComponent() {
             if (builder == null)
                 builder = getAppComponentBuilder();
             return builder.build();
         }
 
+        @Override
         public DefaultAppDelegate netConfig(IDataHelper.NetConfig netConfig) {
-            mNetConfig=netConfig;
+            mNetConfig = netConfig;
             return this;
         }
     }

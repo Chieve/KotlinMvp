@@ -16,9 +16,10 @@ import retrofit2.HttpException;
 
 
 /**
- * 创建者     邓浩宸
- * 创建时间   2017/3/16 13:51
- * 描述	      ${请求统一处理}
+ * @description:  ${请求统一处理}
+ * @author: chieveke
+ * @date: 2018/9/28 15:04
+ * @version: V1.0
  */
 public abstract class BaseSubscriberListener<T> extends SubscriberListener<T> {
 

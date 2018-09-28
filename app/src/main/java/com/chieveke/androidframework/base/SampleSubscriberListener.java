@@ -6,7 +6,7 @@ import com.chieveke.arms.utils.rx.BaseSubscriberListener;
 import retrofit2.HttpException;
 
 /**
- * 创建者     邓浩宸
+ * 创建者
  * 创建时间   2018/4/23 10:29
  * 描述	        请求异常统一处理回调
  */

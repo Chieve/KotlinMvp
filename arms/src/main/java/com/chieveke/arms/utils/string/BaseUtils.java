@@ -14,7 +14,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Created by baixiaokang on 16/12/10.
+ * @description:
+ * @author: chieveke
+ * @date: 2018/9/28 15:04
+ * @version: V1.0
  */
 
 public class BaseUtils {

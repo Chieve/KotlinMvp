@@ -11,7 +11,7 @@ import io.reactivex.subscribers.ResourceSubscriber;
 
 
 /**
- * 创建者：邓浩宸
+ * 创建者：
  * 时间 ：2017/6/20 12:16
  * 描述 ：用于在Http请求开始时，自动显示一个ProgressDialog
  * 在Http请求结束是，关闭ProgressDialog

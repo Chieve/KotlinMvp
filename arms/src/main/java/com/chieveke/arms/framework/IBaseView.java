@@ -5,9 +5,10 @@ import android.content.Context;
 import com.trello.rxlifecycle2.LifecycleTransformer;
 
 /**
- * 创建者：邓浩宸
- * 时间 ：2016/11/15 16:07
- * 描述 ：View的基类
+ * @description: View的基类
+ * @author: chieveke
+ * @date: 2018/9/28 15:00
+ * @version: V1.0
  */
 public interface IBaseView  {
 

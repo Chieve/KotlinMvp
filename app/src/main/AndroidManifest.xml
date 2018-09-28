@@ -32,16 +32,16 @@
         </activity>
         <activity
             android:name="com.chieveke.androidframework.feature.view.NetSampleActivity"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name="com.chieveke.androidframework.feature.view.RoomSampleActivity"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name="com.chieveke.androidframework.feature.view.RxCacheSampleActivity"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name="com.chieveke.androidframework.feature.view.LoginActivity"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>

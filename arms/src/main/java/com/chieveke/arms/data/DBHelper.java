@@ -8,11 +8,11 @@ import com.chieveke.arms.data.cache.ICache;
 
 
 /**
- * 创建者     邓浩宸
- * 创建时间   2018/3/27 16:38
- * 描述	      room数据库帮助类
+ * @description: room数据库帮助类
+ * @author: chieveke
+ * @date: 2018/9/28 14:57
+ * @version: V1.0
  */
-
 public class DBHelper {
 
     ICache iCache;

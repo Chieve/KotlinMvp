@@ -4,9 +4,10 @@ import android.os.Bundle;
 import android.view.View;
 
 /**
- * @creator：denghc(desoce)
- * @updateTime：2018/7/30$ 12:59$
- * @description：  expand Activity&Fragment
+ * @description: expand Activity&Fragment
+ * @author: chieveke
+ * @date: 2018/9/28 15:08
+ * @version: V1.0
  */
 public interface ISupportBaseView {
 

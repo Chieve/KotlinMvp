@@ -5,9 +5,10 @@ import android.app.Activity;
 import java.util.Stack;
 
 /**
- * 创建者：denghaochen
- * 时间 ：2016-09-07 下午 3:43
- * 描述 ：Activity进栈出栈统一管理
+ * @description: Activity进栈出栈统一管理
+ * @author: chieveke
+ * @date: 2018/9/28 15:06
+ * @version: V1.0
  */
 public class AppManager {
 

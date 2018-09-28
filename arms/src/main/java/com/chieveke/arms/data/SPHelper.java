@@ -16,9 +16,10 @@ import java.lang.reflect.Method;
 import java.util.Map;
 
 /**
- * 创建者：邓浩宸
- * 时间 ：2016/10/9 11:26
- * 描述 ：SharedPreferences统一管理类
+ * @description: SharedPreferences统一管理类
+ * @author: chieveke
+ * @date: 2018/9/28 14:57
+ * @version: V1.0
  */
 public class SPHelper {
     /**

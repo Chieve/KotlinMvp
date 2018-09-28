@@ -8,9 +8,10 @@ import java.math.BigInteger;
 import java.util.ArrayList;
 
 /**
- * @creator denghc(desoce)
- * @updateTime 2018/7/30 13:55
- * @description 数字工具类
+ * @description: 数字工具类
+ * @author: chieveke
+ * @date: 2018/9/28 15:06
+ * @version: V1.0
  */
 public class ArithmeticUtil {
 

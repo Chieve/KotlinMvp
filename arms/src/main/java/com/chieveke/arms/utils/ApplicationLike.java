@@ -6,10 +6,11 @@ import android.content.res.Configuration;
 import com.alibaba.android.arouter.facade.template.IProvider;
 
 /**
- * Created by 邓浩宸 on 17/2/27.
- * 作为接口，方便主工程调度子模块的声明周期
+ * @description: 作为接口，方便主工程调度子模块的声明周期
+ * @author: chieveke
+ * @date: 2018/9/28 15:06
+ * @version: V1.0
  */
-
 public interface ApplicationLike extends IProvider {
 
   public void onTerminate(Application application);

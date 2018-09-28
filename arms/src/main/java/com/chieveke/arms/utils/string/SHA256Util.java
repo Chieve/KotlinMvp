@@ -8,9 +8,10 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 /**
- * 创建者     邓浩宸
- * 创建时间   2016/11/25 14:30
- * 描述	      ${生成SHA256值}
+ * @description: ${生成SHA256值}
+ * @author: chieveke
+ * @date: 2018/9/28 15:04
+ * @version: V1.0
  */
 public class SHA256Util {
 

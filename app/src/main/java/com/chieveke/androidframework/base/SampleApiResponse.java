@@ -4,7 +4,7 @@ package com.chieveke.androidframework.base;
 import com.chieveke.arms.data.net.ApiResponse;
 
 /**
- * 创建者     邓浩宸
+ * 创建者
  * 创建时间   2017/8/22 19:52
  * 描述	      ${TODO}
  */

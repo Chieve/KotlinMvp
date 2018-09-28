@@ -2,9 +2,11 @@ package com.chieveke.arms.data.cache;
 
 import android.support.v4.util.LruCache;
 import android.text.TextUtils;
-
 /**
- * Created by 邓浩宸 on 2016/11/28.
+ * @description:
+ * @author: chieveke
+ * @date: 2018/9/28 14:56
+ * @version: V1.0
  */
 
 public class MemoryCache implements ICache {

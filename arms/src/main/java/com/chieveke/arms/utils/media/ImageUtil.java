@@ -25,11 +25,11 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-
 /**
- * 创建者：邓浩宸
- * 时间 ：2017/5/11 11:37
- * 描述 ：IM处理图片的工具类
+ * @description: IM处理图片的工具类
+ * @author: chieveke
+ * @date: 2018/9/28 15:03
+ * @version: V1.0
  */
 public class ImageUtil {
     public static class ImageSize {

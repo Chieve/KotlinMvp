@@ -1,11 +1,10 @@
 package com.chieveke.arms.framework;
 
-
-
 /**
- * 创建者：邓浩宸
- * 时间 ：2016/11/15 16:07
- * 描述 ：Presenter基类
+ * @description: Presenter基类
+ * @author: chieveke
+ * @date: 2018/9/28 15:00
+ * @version: V1.0
  */
 public interface IBasePresenter<V extends IBaseView>{
 

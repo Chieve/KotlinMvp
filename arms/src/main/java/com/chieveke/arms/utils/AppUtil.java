@@ -13,9 +13,10 @@ import android.text.TextUtils;
 import java.io.File;
 
 /**
- * @creator：denghc(desoce)
- * @updateTime：2018/7/30 13:52
- * @description： app相关辅助类
+ * @description: app相关辅助类
+ * @author: chieveke
+ * @date: 2018/9/28 15:06
+ * @version: V1.0
  */
 public class AppUtil {
     private AppUtil() { 

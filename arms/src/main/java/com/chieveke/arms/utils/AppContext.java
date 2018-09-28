@@ -4,9 +4,10 @@ import android.content.Context;
 
 
 /**
- * @creator:denghc(desoce)
- * @updateTime:2018/7/30 13:52
  * @description: save AppContext
+ * @author: chieveke
+ * @date: 2018/9/28 15:05
+ * @version: V1.0
  */
 public class AppContext {
   public static Context mAppContext;

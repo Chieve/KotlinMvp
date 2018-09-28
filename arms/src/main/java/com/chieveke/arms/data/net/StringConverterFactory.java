@@ -9,11 +9,11 @@ import okhttp3.RequestBody;
 import okhttp3.ResponseBody;
 import retrofit2.Converter;
 import retrofit2.Retrofit;
-
 /**
- * @creator:denghc(desoce)
- * @updateTime:2018/7/30 13:50
- * @description:  请求网络返回String的Goson处理工厂
+ * @description: 请求网络返回String的Goson处理工厂
+ * @author: chieveke
+ * @date: 2018/9/28 15:11
+ * @version: V1.0
  */
 public class StringConverterFactory extends Converter.Factory {
 

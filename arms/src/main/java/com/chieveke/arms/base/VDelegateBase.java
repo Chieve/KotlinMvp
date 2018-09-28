@@ -8,7 +8,7 @@ import com.chieveke.arms.framework.VDelegate;
 
 
 /**
- * 创建者：邓浩宸
+ * 创建者：
  * 时间 ：2017/3/28 16:44
  * 描述 ：View的基础代理
  */

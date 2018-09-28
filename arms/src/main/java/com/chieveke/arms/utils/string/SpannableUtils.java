@@ -41,9 +41,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * 创建者：邓浩宸
- * 时间 ：2017/6/21 20:11
- * 描述 ：TODO 请描述该类职责
+ * @description: TODO 请描述该类职责
+ * @author: chieveke
+ * @date: 2018/9/28 15:05
+ * @version: V1.0
  */
 @SuppressWarnings(value = {"unused", "WeakerAccess"})
 public class SpannableUtils {

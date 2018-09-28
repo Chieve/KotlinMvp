@@ -11,9 +11,10 @@ import io.reactivex.functions.Function;
 import io.reactivex.schedulers.Schedulers;
 
 /**
- * 创建者：邓浩宸
- * 时间 ：2016/11/15 16:01
- * 描述 ：Rxjava使用的工具类
+ * @description: Rxjava使用的工具类
+ * @author: chieveke
+ * @date: 2018/9/28 15:04
+ * @version: V1.0
  */
 public class RxUtil {
 

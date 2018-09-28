@@ -13,9 +13,10 @@ import dagger.Module;
 import dagger.Provides;
 
 /**
- * 创建者：邓浩宸
- * 时间 ：2017/3/21 10:52
- * 描述 ：提供一些框架必须的实例的 {@link Module}
+ * @description: 提供一些框架必须的实例的 {@link Module}
+ * @author: chieveke
+ * @date: 2018/9/28 14:58
+ * @version: V1.0
  */
 @Module
 public class AppModule {

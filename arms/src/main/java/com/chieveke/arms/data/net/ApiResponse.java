@@ -2,9 +2,10 @@
 package com.chieveke.arms.data.net;
 
 /**
- * @creator:denghc(desoce)
- * @updateTime:2018/7/30 13:42
- * @description: A wrapper class that responds to the results.
+ * @description:  A wrapper class that responds to the results.
+ * @author: chieveke
+ * @date: 2018/9/28 15:10
+ * @version: V1.0
  */
 public interface ApiResponse<T> {
 

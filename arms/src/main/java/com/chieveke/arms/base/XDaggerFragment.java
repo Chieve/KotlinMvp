@@ -15,7 +15,7 @@ import javax.inject.Inject;
 
 
 /**
- * 创建者：邓浩宸
+ * 创建者：
  * 时间 ：2016/11/15 16:07
  * 描述 ： XDaggerFragment is  MVP by Dagger2
  */

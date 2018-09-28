@@ -9,11 +9,11 @@ import okhttp3.MultipartBody;
 import okhttp3.RequestBody;
 
 /**
- * 创建者     邓浩宸
- * 创建时间   2016/12/9 14:17
- * 描述	 文件上传
+ * @description: 文件上传
+ * @author: chieveke
+ * @date: 2018/9/28 15:07
+ * @version: V1.0
  */
-
 public class UploadUtil {
 
 

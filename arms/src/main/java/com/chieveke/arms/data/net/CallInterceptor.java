@@ -9,11 +9,11 @@ import okhttp3.Interceptor;
 import okhttp3.Request;
 import okhttp3.Response;
 
-
 /**
- * @creator：denghc(desoce)
- * @updateTime：2018/7/30 13:49
- * @description： Do before and after requests
+ * @description: Do before and after requests
+ * @author: chieveke
+ * @date: 2018/9/28 15:11
+ * @version: V1.0
  */
 public class CallInterceptor implements Interceptor {
 

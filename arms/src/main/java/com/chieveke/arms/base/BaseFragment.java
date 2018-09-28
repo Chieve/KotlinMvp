@@ -26,11 +26,11 @@ import me.yokeyword.fragmentation.SupportFragment;
 import me.yokeyword.fragmentation.anim.DefaultHorizontalAnimator;
 import me.yokeyword.fragmentation.anim.FragmentAnimator;
 
-
 /**
- * @creator:denghc(desoce)
- * @updateTime:2018/7/30 12:02
  * @description: BaseFragment by no mvp
+ * @author: chieveke
+ * @date: 2018/9/28 15:09
+ * @version: V1.0
  */
 public abstract class BaseFragment extends SupportFragment implements LifecycleProvider<FragmentEvent> ,ISupportBaseFragment {
 

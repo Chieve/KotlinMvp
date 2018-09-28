@@ -1,9 +1,10 @@
 package com.chieveke.arms.framework;
 
 /**
- * @creator：denghc(desoce)
- * @updateTime：2018/7/30$ 12:52$
- * @description： BaseActivity support
+ * @description: BaseActivity support
+ * @author: chieveke
+ * @date: 2018/9/28 15:07
+ * @version: V1.0
  */
 public interface ISupportBaseActivity extends  ISupportBaseView {
 

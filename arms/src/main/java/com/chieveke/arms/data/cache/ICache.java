@@ -1,7 +1,10 @@
 package com.chieveke.arms.data.cache;
 
 /**
- * Created by 邓浩宸 on 2016/11/27.
+ * @description:
+ * @author: chieveke
+ * @date: 2018/9/28 14:56
+ * @version: V1.0
  */
 
 public interface ICache {

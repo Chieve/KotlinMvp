@@ -9,9 +9,10 @@ import okhttp3.ResponseBody;
 import retrofit2.Converter;
 
 /**
- * 创建者     邓浩宸
- * 创建时间   2017/3/28 13:04
- * 描述	     数据处理接口类
+ * @description: 数据处理接口类
+ * @author: chieveke
+ * @date: 2018/9/28 14:57
+ * @version: V1.0
  */
 public interface IDataHelper {
 

@@ -1,10 +1,10 @@
 package com.chieveke.arms.framework;
 
-
 /**
- * @creator:denghc(desoce)
- * @updateTime:2018/7/30 13:42
- * @description:TODO 请描述该类职责
+ * @description:
+ * @author: chieveke
+ * @date: 2018/9/28 15:01
+ * @version: V1.0
  */
 public interface ProgressCancelListener {
     void onCancelProgress();

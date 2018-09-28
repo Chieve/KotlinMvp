@@ -21,9 +21,10 @@ import io.victoralbertos.jolyglot.GsonSpeaker;
 
 
 /**
- * 创建者     邓浩宸
- * 创建时间   2018/3/29 12:51
- * 描述	     数据工具提供者
+ * @description: 数据工具提供者
+ * @author: chieveke
+ * @date: 2018/9/28 14:59
+ * @version: V1.0
  */
 @Module
 public class DataModule {

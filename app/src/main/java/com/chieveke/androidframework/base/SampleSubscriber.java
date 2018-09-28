@@ -9,7 +9,7 @@ import com.chieveke.arms.data.net.NetError;
 import com.chieveke.arms.data.net.SubscriberListener;
 
 /**
- * 创建者     邓浩宸
+ * 创建者
  * 创建时间   2017/8/26 16:26
  * 描述	      ${业务异常干货统一处理,自定义的Subscriber}
  */

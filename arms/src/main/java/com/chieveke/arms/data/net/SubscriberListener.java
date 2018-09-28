@@ -3,9 +3,10 @@ package com.chieveke.arms.data.net;
 import retrofit2.HttpException;
 
 /**
- * @creator:denghc(desoce)
- * @updateTime:2018/7/30 13:50
  * @description:
+ * @author: chieveke
+ * @date: 2018/9/28 15:12
+ * @version: V1.0
  */
 public abstract class SubscriberListener<T> {
     /**

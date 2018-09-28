@@ -3,11 +3,11 @@ package com.chieveke.arms.framework;
 import android.os.Bundle;
 
 /**
- * 创建者     邓浩宸
- * 创建时间   2017/3/24 9:09
- * 描述	      ${TODO}
+ * @description: ${TODO}
+ * @author: chieveke
+ * @date: 2018/9/28 15:01
+ * @version: V1.0
  */
-
 public interface ISupportDagger {
 
    void initInject(Bundle savedInstanceState);

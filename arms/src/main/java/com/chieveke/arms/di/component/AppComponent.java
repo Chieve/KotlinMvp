@@ -17,9 +17,10 @@ import io.rx_cache2.internal.RxCache;
 
 
 /**
- * 创建者：邓浩宸
- * 时间 ：2017/3/21 10:53
- * 描述 ：App的注解使用
+ * @description: App的注解使用
+ * @author: chieveke
+ * @date: 2018/9/28 14:58
+ * @version: V1.0
  */
 @Singleton
 @Component(modules = {DataModule.class,AppModule.class})

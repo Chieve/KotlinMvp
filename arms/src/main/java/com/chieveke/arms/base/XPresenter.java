@@ -5,9 +5,10 @@ import com.chieveke.arms.framework.IBasePresenter;
 import com.chieveke.arms.framework.IBaseView;
 
 /**
- * @creator：denghc(desoce)
- * @updateTime：2018/7/30 13:31
- * @description： Used to attachView and detachView
+ * @description: Used to attachView and detachView
+ * @author: chieveke
+ * @date: 2018/9/28 15:10
+ * @version: V1.0
  */
 public class XPresenter<V extends IBaseView> implements IBasePresenter<V> {
 

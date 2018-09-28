@@ -6,11 +6,11 @@ import javax.inject.Scope;
 
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
-
 /**
- * 创建者：邓浩宸
- * 时间 ：2017/3/21 10:52
- * 描述 ：TODO 请描述该类职责
+ * @description: TODO 请描述该类职责
+ * @author: chieveke
+ * @date: 2018/9/28 14:59
+ * @version: V1.0
  */
 @Scope
 @Retention(RUNTIME)
