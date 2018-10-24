@@ -6,6 +6,7 @@ import android.text.TextUtils;
 import com.chieveke.arms.data.cache.ICache;
 import com.chieveke.arms.data.net.CacheInterceptor;
 import com.chieveke.arms.data.net.CallInterceptor;
+import com.chieveke.arms.data.net.CommonInterceptor;
 import com.chieveke.arms.data.net.StringConverterFactory;
 import com.chieveke.arms.utils.AppUtil;
 import com.chieveke.arms.utils.file.FileUtil;
@@ -167,11 +168,13 @@ public class HttpHelper implements IDataHelper {
         Cache cache = new Cache(cacheFile, 1024 * 1024 * 40);//设置缓存大小为40M
         //缓存
         CacheInterceptor cacheInterceptor = new CacheInterceptor(context);
+        CommonInterceptor commonInterceptor = new CommonInterceptor();
 
         OkHttpClient.Builder builder =
                 new OkHttpClient.Builder()
                         .cache(cache)
                         .addInterceptor(cacheInterceptor)
+                        .addInterceptor(commonInterceptor)
                         .addNetworkInterceptor(cacheInterceptor)
                         //                        .retryOnConnectionFailure(true)
                         .connectTimeout(netConfig.connectTimeoutMills != 0 ? netConfig.connectTimeoutMills : 15, TimeUnit.SECONDS)

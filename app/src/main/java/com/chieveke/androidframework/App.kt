@@ -1,6 +1,7 @@
 package com.chieveke.androidframework
 
 import com.chieveke.arms.base.BaseApplication
+import com.chieveke.arms.utils.Utils
 import timber.log.Timber
 
 
@@ -22,5 +23,7 @@ class App : BaseApplication() {
                 }
             })
         }
+//        spUtils
+        Utils.init(this)
     }
 }

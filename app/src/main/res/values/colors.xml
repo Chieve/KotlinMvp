@@ -3,4 +3,49 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!-- 常用颜色值 -->
+    <color name="transparent">#00000000</color>
+    <color name="white40">#40FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="red">#FF0000</color>
+    <color name="gold">#FFD200</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#008000</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="orange">#FFA500</color>
+
+
+    <!-- ************************* 通用的 ******************************************** -->
+    <!-- 分割线 -->
+    <color name="common_line">#eaeaea</color>
+    <!-- 深灰色 -->
+    <color name="common_text_gray_dark">#404040</color>
+    <!-- 通用红色字体颜色 -->
+    <color name="common_red">#ff5a5f</color>
+    <!-- 浅灰色字体 -->
+    <color name="common_text_gray_thin">#989898</color>
+    <!-- 通用灰色字体颜色 -->
+    <color name="common_gray">#919496</color>
+    <!--白色字体-->
+    <color name="common_text_white">#FFFFFF</color>
+    <!--黄色按钮-->
+    <color name="common_button_yellow_normal">#FEAE11</color>
+    <color name="common_button_yellow_pressed">#FFD49210</color>
+    <!--橘色按钮-->
+    <color name="common_button_orange_normal">#EE7801</color>
+    <!--通用绿色-->
+    <color name="common_green">#28C840</color>
+    <color name="gray_payment">#707070</color>
+    <color name="color_gray_thin">#E7E7E7</color>
+    <color name="color_gray">#C4C4C4</color>
+    <color name="gray_exit">#646464</color>
+    <!-- 数据统计红色 -->
+    <color name="chart_red">#ff6158</color>
+    <color name="chart_orange">#ffBC2D</color>
+    <color name="chart_green">#28C840</color>
+
 </resources>

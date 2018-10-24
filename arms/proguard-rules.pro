@@ -19,3 +19,7 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+
+# Fragmentation
+-keepclasseswithmembernames class android.support.v4.widget.ViewDragHelper{ *; }

@@ -1,6 +1,7 @@
 package com.chieveke.androidframework.feature.di.component;
 
 import com.chieveke.androidframework.feature.view.LoginActivity;
+import com.chieveke.androidframework.feature.view.LoginDemoActivity;
 import com.chieveke.androidframework.feature.view.MainActivity;
 import com.chieveke.androidframework.feature.view.NetSampleActivity;
 import com.chieveke.androidframework.feature.view.RoomSampleActivity;
@@ -28,6 +29,8 @@ public interface ActivityComponent {
     void  inject(RoomSampleActivity roomSampleActivity);
 
     void  inject(MainActivity mainActivity);
+
+    void inject(LoginDemoActivity loginDemoActivity);
 
     void inject(LoginActivity loginActivity);
 }

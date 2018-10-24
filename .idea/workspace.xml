@@ -9,70 +9,58 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc95a8d1-0651-4a56-a96b-4e95d07b3d85" name="Default" comment="">
+    <list default="true" id="dc95a8d1-0651-4a56-a96b-4e95d07b3d85" name="Default" comment="【增】框架注释">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/bg_login_bottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/bg_login_k.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/bg_welcome.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/cb_checked_login.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/cb_nochecked_login.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/icon_k_fuwu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/icon_login_open_visible.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/icon_login_open_visible_close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/base/InfoResponseEntityBase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/base/InfoSubscriber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/modle/LoginDataService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/modle/StaticData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/modle/bean/LoginUserEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/presenter/LoginPersenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/presenter/contract/ILoginContract.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/utils/MD5Util.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/view/LoginDemoActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/view/WelcomeActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_orange_normal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_yellow_pressed.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_bg.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/select_password_isvisible.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/selector_cb_login_remember.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/selector_orange_btn.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/CommonInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/SPUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/ToastUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/Utils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/string/HmacSHA1Encryption.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arms/src/main/res/drawable/bg_toast.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arms/src/main/res/layout/layout_common_toast.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/App.kt" afterPath="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/App.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/base/SampleApiResponse.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/base/SampleApiResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/base/SampleSubscriber.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/base/SampleSubscriber.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/base/SampleSubscriberListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/base/SampleSubscriberListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/di/component/ActivityComponent.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/di/component/ActivityComponent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/modle/Api.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/modle/Api.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/view/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/view/LoginActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/view/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/view/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/build.gradle" afterPath="$PROJECT_DIR$/arms/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/proguard-rules.pro" afterPath="$PROJECT_DIR$/arms/proguard-rules.pro" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/BaseActivity.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/BaseActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/BaseApplication.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/BaseApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/BaseBean.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/BaseBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/BaseFragment.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/BaseFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/BaseSubscriber.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/BaseSubscriber.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/VDelegateBase.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/VDelegateBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/XDaggerActivity.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/XDaggerActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/XDaggerFragment.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/XDaggerFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/XPresenter.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/XPresenter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/DBHelper.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/DBHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/HttpHelper.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/HttpHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/IDataHelper.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/IDataHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/SPHelper.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/SPHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/cache/ICache.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/cache/ICache.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/cache/MemoryCache.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/cache/MemoryCache.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/ApiResponse.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/ApiResponse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/CacheInterceptor.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/CacheInterceptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/CallInterceptor.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/CallInterceptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/NetError.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/NetError.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/RetryWhenHandler.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/RetryWhenHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/StringConverterFactory.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/StringConverterFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/SubscriberListener.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/SubscriberListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/di/ActivityScope.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/di/ActivityScope.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/di/ContextLife.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/di/ContextLife.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/di/FragmentScope.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/di/FragmentScope.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/di/component/AppComponent.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/di/component/AppComponent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/di/module/ActivityModule.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/di/module/ActivityModule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/di/module/AppModule.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/di/module/AppModule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/di/module/DataModule.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/di/module/DataModule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/di/module/FragmentModule.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/di/module/FragmentModule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/IBaseModel.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/IBaseModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/IBasePresenter.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/IBasePresenter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/IBaseView.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/IBaseView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/ISupportApplication.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/ISupportApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/ISupportBaseActivity.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/ISupportBaseActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/ISupportBaseFragment.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/ISupportBaseFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/ISupportBaseView.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/ISupportBaseView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/ISupportDagger.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/ISupportDagger.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/ProgressCancelListener.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/ProgressCancelListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/VDelegate.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/VDelegate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/XAppDelegate.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/XAppDelegate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/AppContext.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/AppContext.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/AppManager.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/AppManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/AppUtil.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/AppUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/ApplicationLike.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/ApplicationLike.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/ArithmeticUtil.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/ArithmeticUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/AsLibUtil.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/AsLibUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/UploadUtil.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/UploadUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/media/BitmapDecoder.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/media/BitmapDecoder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/media/ImageUtil.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/media/ImageUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/media/SampleSizeUtil.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/media/SampleSizeUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/rx/BaseSubscriberListener.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/rx/BaseSubscriberListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/rx/RxUtil.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/rx/RxUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/string/BaseUtils.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/string/BaseUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/string/SHA256Util.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/string/SHA256Util.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/string/SpannableUtils.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/string/SpannableUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/sys/DateUtil.java" afterPath="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/sys/DateUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.gradle" afterPath="$PROJECT_DIR$/config.gradle" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -99,114 +87,110 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/App.kt">
+      <file leaf-file-name="CommonInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/CommonInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Timber.java" pinned="false" current-in-tab="true">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton.timber/timber/4.7.0/36dd31f8ab061a57391b87512e16772d102759a2/timber-4.7.0-sources.jar!/timber/log/Timber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="376" column="52" lean-forward="true" selection-start-line="376" selection-start-column="52" selection-end-line="376" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadLocal.java" pinned="false" current-in-tab="false">
-        <entry file="file://F:/AndroidStudioSDK/sources/android-27/java/lang/ThreadLocal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="147" column="11" lean-forward="false" selection-start-line="147" selection-start-column="11" selection-end-line="147" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="43" column="46" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XAppDelegate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/XAppDelegate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="82" column="33" lean-forward="true" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
+            <state relative-caret-position="735">
+              <caret line="64" column="5" lean-forward="false" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
               <folding>
-                <element signature="e#1466#1467#0" expanded="true" />
-                <element signature="e#1520#1521#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1437#1453#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AsLibUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/AsLibUtil.java">
+      <file leaf-file-name="SpannableUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/string/SpannableUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+            <state relative-caret-position="209">
+              <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationLike.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/ApplicationLike.java">
+      <file leaf-file-name="SHA256Util.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/string/SHA256Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state relative-caret-position="176">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseChildApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/BaseChildApplication.java">
+      <file leaf-file-name="MD5.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/string/MD5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            <state relative-caret-position="-204">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ARouter.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/arouter-api/1.3.1/d29faa0a05cf3397115df8d34d75c9e6079a7f09/arouter-api-1.3.1-sources.jar!/com/alibaba/android/arouter/launcher/ARouter.java">
+      <file leaf-file-name="HmacSHA1Encryption.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/string/HmacSHA1Encryption.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="69" column="36" lean-forward="false" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
+            <state relative-caret-position="286">
+              <caret line="60" column="25" lean-forward="false" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
               <folding>
-                <element signature="e#2024#2025#0" expanded="true" />
-                <element signature="e#2060#2061#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/AppUtil.java">
+      <file leaf-file-name="HexDump.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/string/HexDump.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="159" column="26" lean-forward="false" selection-start-line="159" selection-start-column="26" selection-end-line="159" selection-end-column="26" />
+            <state relative-caret-position="-2161">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/string/BaseUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1168">
+              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/arms/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1911">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Request.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/e99b7b608968f16b07104b93e62cb90701174d0/okhttp-3.10.0-sources.jar!/okhttp3/Request.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="64" column="27" lean-forward="false" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
               <folding>
-                <element signature="e#4523#4524#0" expanded="true" />
-                <element signature="e#4594#4595#0" expanded="true" />
+                <element signature="e#1697#1698#0" expanded="true" />
+                <element signature="e#1718#1719#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RequestBody.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/e99b7b608968f16b07104b93e62cb90701174d0/okhttp-3.10.0-sources.jar!/okhttp3/RequestBody.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-304">
+              <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -217,6 +201,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -233,6 +218,11 @@
       <find>dagger2SdkVersion</find>
       <find>rout</find>
       <find>butterknifeSdkVersion</find>
+      <find>text</find>
+      <find>this</find>
+      <find>retrofit</find>
+      <find>StaticData</find>
+      <find>System.currentTimeMillis()</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -3488,42 +3478,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/di/module/AppModule.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/di/module/DataModule.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/di/module/FragmentModule.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/di/ActivityScope.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/di/ContextLife.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/di/FragmentScope.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/IBaseModel.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/IBasePresenter.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/IBaseView.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/ISupportDagger.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/ProgressCancelListener.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/VDelegate.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/media/BitmapDecoder.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/media/ImageUtil.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/media/SampleSizeUtil.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/rx/BaseSubscriberListener.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/rx/RxUtil.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/string/BaseUtils.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/string/SHA256Util.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/string/SpannableUtils.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/sys/DateUtil.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/AppContext.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/ApplicationLike.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/AppManager.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/AppUtil.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/ArithmeticUtil.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/AsLibUtil.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/UploadUtil.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/ISupportApplication.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/ISupportBaseActivity.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/ISupportBaseFragment.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/ISupportBaseView.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/BaseActivity.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/BaseApplication.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/BaseBean.java" />
-        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/BaseFragment.java" />
         <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/XDaggerActivity.java" />
         <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/XPresenter.java" />
         <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/ApiResponse.java" />
@@ -3535,16 +3489,52 @@
         <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/SubscriberListener.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/base/SampleSubscriberListener.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/base/SampleApiResponse.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/base/SampleSubscriber.java" />
         <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/XAppDelegate.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/App.kt" />
+        <option value="$USER_HOME$/.gradle/caches/transforms-1/files-1.1/fragmentation-1.3.5.aar/30ff9f791ae0ba555e78c7fc79a9603e/jars/classes.jar!/me/yokeyword/fragmentation_components/BuildConfig.class" />
+        <option value="$PROJECT_DIR$/arms/build.gradle" />
+        <option value="$PROJECT_DIR$/config.gradle" />
+        <option value="$PROJECT_DIR$/arms/proguard-rules.pro" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/view/LoginDemoActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/view/WelcomeActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/selector_cb_login_remember.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/select_password_isvisible.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login2.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/presenter/contract/ILoginContract.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/di/component/ActivityComponent.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/modle/bean/LoginUserEntity.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/Utils.java" />
+        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/SPUtils.java" />
+        <option value="$PROJECT_DIR$/arms/src/main/res/drawable/bg_toast.xml" />
+        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/ToastUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/modle/LoginDataService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/utils/MD5Util.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/App.kt" />
+        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/BaseActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/base/SampleSubscriber.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/base/InfoResponseEntityBase.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/base/InfoSubscriber.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/presenter/LoginPersenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/modle/StaticData.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/modle/Api.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/view/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/commonInterceptor.java" />
+        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/HttpHelper.java" />
+        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/string/HmacSHA1Encryption.java" />
+        <option value="$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/CommonInterceptor.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="104" />
-    <option name="y" value="93" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1873" />
     <option name="height" value="1096" />
   </component>
@@ -3564,6 +3554,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -3572,16 +3564,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidFrameWork_koltin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="AndroidFrameWork_koltin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -3596,14 +3578,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="gradle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wrapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidFrameWork_koltin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidFrameWork_koltin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidFrameWork_koltin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidFrameWork_koltin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
@@ -3668,18 +3684,28 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../other/JRPhone_smart_s_sdkdemo" />
     <property name="recentsLimit" value="5" />
-    <property name="device.picker.selection" value="1c9cabc3" />
-    <property name="DEBUGGABLE_DEVICE" value="xiaomi-mi_4c-1c9cabc3" />
+    <property name="device.picker.selection" value="c67e6a71" />
+    <property name="DEBUGGABLE_DEVICE" value="smartisan-od103-c67e6a71" />
     <property name="DEBUGGABLE_PROCESS" value="com.chieveke.androidframework" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="DEBUGGER_ID" value="Auto" />
-    <property name="SearchEverywhereHistoryKey" value="UserBean&#9;FILE&#9;file://E:/qijiaProjectIng/AndroidFrameWork_koltin/app/src/main/java/com/chieveke/androidframework/feature/modle/bean/UserBean.kt&#10;UserPersenter&#9;FILE&#9;file://E:/qijiaProjectIng/AndroidFrameWork_koltin/app/src/main/java/com/chieveke/androidframework/feature/presenter/UserPersenter.kt&#10;daggerA&#9;PSI&#9;JAVA://com.chieveke.androidframework.feature.di.component.DaggerActivityComponent" />
+    <property name="SearchEverywhereHistoryKey" value="welcom&#9;PSI&#9;JAVA://com.chieveke.androidframework.feature.view.WelcomeActivity&#10;UserBean&#9;FILE&#9;file://E:/qijiaProjectIng/AndroidFrameWork_koltin/app/src/main/java/com/chieveke/androidframework/feature/modle/bean/UserBean.kt&#10;UserPersenter&#9;FILE&#9;file://E:/qijiaProjectIng/AndroidFrameWork_koltin/app/src/main/java/com/chieveke/androidframework/feature/presenter/UserPersenter.kt&#10;daggerA&#9;PSI&#9;JAVA://com.chieveke.androidframework.feature.di.component.DaggerActivityComponent" />
     <property name="oudtdated.runtime.suppressed.plugin.version" value="1.2.41-release-Studio3.0-1" />
     <property name="android.profiler.active" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="com.chieveke.androidframework.base.injection" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.chieveke.androidframework.feature.view" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\qijiaProjectIng\AndroidFrameWork_koltin\app\src\main\res\mipmap-xxhdpi" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="com.chieveke.androidframework.feature.view" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="com.chieveke.androidframework.base.injection.module" />
@@ -3691,20 +3717,22 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.chieveke.arms" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.chieveke.androidframework.feature.modle" />
-      <recent name="com.chieveke.androidframework.feature" />
-      <recent name="com.chieveke.androidframework.feature.presenter.contract" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\qijiaProjectIng\AndroidFrameWork_koltin\arms\src\main\res\drawable" />
+      <recent name="E:\qijiaProjectIng\AndroidFrameWork_koltin\arms\src\main\res\layout" />
+      <recent name="E:\qijiaProjectIng\AndroidFrameWork_koltin\app\src\main\res\mipmap-xxhdpi" />
+      <recent name="E:\qijiaProjectIng\AndroidFrameWork_koltin\app\src\main\res\drawable" />
       <recent name="E:\qijiaProjectIng\AndroidFrameWork_koltin\app\src\main\java\com\chieveke\androidframework\feature\modle\dao" />
-      <recent name="E:\qijiaProjectIng\AndroidFrameWork_koltin\app\src\main\java\com\chieveke\androidframework\feature\modle\bean" />
-      <recent name="E:\qijiaProjectIng\AndroidFrameWork_koltin\app\src\main\res\layout" />
-      <recent name="E:\qijiaProjectIng\AndroidFrameWork_koltin\app\src\main\java\com\chieveke\androidframework\feature\presenter" />
-      <recent name="E:\qijiaProjectIng\AndroidFrameWork_koltin\app\src\main\java\com\chieveke\androidframework\feature\net" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.chieveke.androidframework.feature.view" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.chieveke.arms.utils.string" />
+      <recent name="com.chieveke.androidframework.base" />
+      <recent name="com.chieveke.androidframework.feature.utils" />
+      <recent name="com.chieveke.arms.utils" />
+      <recent name="com.chieveke.androidframework.feature.modle.bean" />
+    </key>
+    <key name="android.template.parentActivityClass">
+      <recent name="" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -3790,7 +3818,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1538120679836" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1540346635045" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -3838,7 +3866,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1538120679836" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1540346635045" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -4045,7 +4073,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1538120679837" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1540346635046" />
       </method>
     </configuration>
     <list size="1">
@@ -4105,16 +4133,23 @@
       <option name="project" value="LOCAL" />
       <updated>1537958755037</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="【增】框架注释">
+      <created>1538121003810</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1538121003810</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="104" y="93" width="1873" height="1096" extended-state="0" />
+    <frame x="-8" y="-8" width="1873" height="1096" extended-state="6" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32905984" sideWeight="0.4980695" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.4980695" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30341882" sideWeight="0.5449531" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28681743" sideWeight="0.24595469" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18482906" sideWeight="0.5405405" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23166023" sideWeight="0.27241963" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -4122,18 +4157,17 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50213677" sideWeight="0.82239383" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33119658" sideWeight="0.81246555" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33974358" sideWeight="0.5129619" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35339168" sideWeight="0.3463872" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28681743" sideWeight="0.7540453" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33974358" sideWeight="0.48703805" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23166023" sideWeight="0.72758037" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24252136" sideWeight="0.6618864" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35339168" sideWeight="0.6536128" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498621" sideWeight="0.50554675" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -4143,37 +4177,38 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18091561" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27899343" sideWeight="0.4782129" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.4980695" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28792056" sideWeight="0.36739132" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23166023" sideWeight="0.27241963" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34615386" sideWeight="0.4528406" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Kotlin Bytecode" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14230557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.83563155" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33119658" sideWeight="0.81246555" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24252136" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35339168" sideWeight="0.6536128" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33081284" sideWeight="0.54715943" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18482906" sideWeight="0.5405405" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984003" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18091561" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33974358" sideWeight="0.51075566" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28681743" sideWeight="0.6318083" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33974358" sideWeight="0.48924434" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35339168" sideWeight="0.3463872" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23166023" sideWeight="0.72758037" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27899343" sideWeight="0.4782129" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498621" sideWeight="0.50554675" order="7" side_tool="true" content_ui="tabs" />
@@ -4185,7 +4220,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&lt;测试提交github&gt;" />
     <MESSAGE value="【增】提交引用框架和测试room数据库" />
-    <option name="LAST_COMMIT_MESSAGE" value="【增】提交引用框架和测试room数据库" />
+    <MESSAGE value="【增】框架注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="【增】框架注释" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -4197,19 +4233,19 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/view/LoginActivity.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/view/LoginDemoActivity.java</url>
           <line>67</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/view/LoginActivity.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/view/LoginDemoActivity.java</url>
           <line>69</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/view/LoginActivity.java</url>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/view/LoginDemoActivity.java</url>
           <line>53</line>
           <properties />
           <option name="timeStamp" value="9" />
@@ -4220,15 +4256,81 @@
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/view/LoginActivity.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/view/LoginActivity.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/presenter/LoginPersenter.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/presenter/LoginPersenter.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/presenter/LoginPersenter.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/base/SampleSubscriber.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/base/SampleSubscriber.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/base/InfoSubscriber.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/base/InfoSubscriber.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/presenter/LoginPersenter.java</url>
+          <line>52</line>
+          <properties method="onSuccess">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="26" />
+      <option name="time" value="48" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Android Hybrid Debugger (20443)-java">
         <watch expression="cacheApi.UserDao().insertUser(new UserEntity(id,name,password));" />
+      </configuration>
+      <configuration name="Android Hybrid Debugger (20917)-java">
+        <watch expression="response.getData()" />
+        <watch expression="response" />
       </configuration>
       <configuration name="Android Hybrid Debugger (12013)-java">
         <watch expression="mPresenter" />
@@ -4240,430 +4342,418 @@
       <configuration name="Android Hybrid Debugger (18813)-java">
         <watch expression="cacheApi.UserDao()" />
       </configuration>
+      <configuration name="app-java">
+        <watch expression="cbRememberAccount" />
+      </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/BaseBean.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.8.1/4f68b7085132dfeb48a0473bc589fdee8a3de757/butterknife-annotations-8.8.1-sources.jar!/butterknife/BindView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="31" lean-forward="false" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/BaseFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login2.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="210">
+          <caret line="107" column="24" lean-forward="false" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/BaseSubscriber.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/view/LoginDemoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/VDelegateBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="158">
+          <caret line="64" column="3" lean-forward="false" selection-start-line="64" selection-start-column="3" selection-end-line="64" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/XDaggerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="380">
+          <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/XDaggerFragment.java">
+    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/ISupportDagger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="228">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/XPresenter.java">
+    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/ISupportBaseView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="285">
+          <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/cache/ICache.java">
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/com/chieveke/androidframework/feature/view/LoginActivity_ViewBinding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="87">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/cache/MemoryCache.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/8.8.1/1de300f9b877d30cea69c2ba84a450549f023ab8/butterknife-8.8.1-sources.jar!/butterknife/internal/DebouncingOnClickListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="106">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/DBHelper.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/base/SampleApiResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="488">
+          <caret line="36" column="19" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/view/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-485">
+          <caret line="51" column="41" lean-forward="true" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/AndroidStudioSDK/sources/android-27/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/ApiResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="99">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/CacheInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/base/SampleSubscriber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/CallInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/NetError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/RetryWhenHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/StringConverterFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/SubscriberListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/file/AttachmentStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/file/FileUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="532">
+          <caret line="33" column="62" lean-forward="true" selection-start-line="33" selection-start-column="62" selection-end-line="33" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/base/SampleSubscriberListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/base/SampleApiResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/base/SampleSubscriber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/dao/AppDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/dao/GankDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/di/component/ActivityComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/di/component/FragmentComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/modle/bean/GankItemBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/modle/bean/UserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/modle/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/modle/Api.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/modle/NetTestRemoteDataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/modle/UserLoginDataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/presenter/contract/INetTestContract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/presenter/contract/IUserLoginContract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="418">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/presenter/NetTestPresenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="290">
+          <caret line="36" column="91" lean-forward="false" selection-start-line="36" selection-start-column="91" selection-end-line="36" selection-end-column="91" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/presenter/RoomTestPresenter.java">
+    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/NetError.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="323">
+          <caret line="34" column="37" lean-forward="false" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/presenter/RxCacheTestPresenter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/modle/StaticData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="323">
+          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/presenter/UserLoginPersenter.java">
+    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/BaseSubscriber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="253">
+          <caret line="93" column="42" lean-forward="false" selection-start-line="93" selection-start-column="42" selection-end-line="93" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/rx/BaseSubscriberListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="62" column="16" lean-forward="false" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/view/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="191" column="16" lean-forward="false" selection-start-line="191" selection-start-column="16" selection-end-line="191" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/AndroidStudioSDK/sources/android-27/android/content/ContextWrapper.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/presenter/contract/ILoginContract.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="107" column="19" lean-forward="false" selection-start-line="107" selection-start-column="19" selection-end-line="107" selection-end-column="19" />
+        <state relative-caret-position="206">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/SubscriberListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/base/InfoResponseEntityBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="43" column="19" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/base/InfoSubscriber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/presenter/LoginPersenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="48" column="26" lean-forward="false" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
           <folding>
-            <element signature="e#3195#3196#0" expanded="true" />
-            <element signature="e#3247#3248#0" expanded="true" />
+            <element signature="e#1451#1492#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/AndroidStudioSDK/sources/android-27/android/content/pm/ApplicationInfo.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/modle/LoginDataService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="147" column="28" lean-forward="false" selection-start-line="147" selection-start-column="28" selection-end-line="147" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="399">
+          <caret line="31" column="52" lean-forward="false" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/AppUtil.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/feature/modle/Api.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="159" column="26" lean-forward="false" selection-start-line="159" selection-start-column="26" selection-end-line="159" selection-end-column="26" />
-          <folding>
-            <element signature="e#4523#4524#0" expanded="true" />
-            <element signature="e#4594#4595#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="444">
+          <caret line="36" column="54" lean-forward="false" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.alibaba/arouter-api/1.3.1/d29faa0a05cf3397115df8d34d75c9e6079a7f09/arouter-api-1.3.1-sources.jar!/com/alibaba/android/arouter/launcher/ARouter.java">
+    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/XAppDelegate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="69" column="36" lean-forward="false" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
-          <folding>
-            <element signature="e#2024#2025#0" expanded="true" />
-            <element signature="e#2060#2061#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/BaseChildApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/ApplicationLike.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/AsLibUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="179">
+          <caret line="105" column="62" lean-forward="false" selection-start-line="105" selection-start-column="62" selection-end-line="105" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/base/BaseApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="43" column="46" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/framework/XAppDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="82" column="33" lean-forward="true" selection-start-line="82" selection-start-column="33" selection-end-line="82" selection-end-column="33" />
+        <state relative-caret-position="646">
+          <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
           <folding>
-            <element signature="e#1466#1467#0" expanded="true" />
-            <element signature="e#1520#1521#0" expanded="true" />
+            <element signature="e#1193#1194#0" expanded="false" />
+            <element signature="e#1220#1221#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chieveke/androidframework/App.kt">
+    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/IDataHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="456">
+          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/AndroidStudioSDK/sources/android-27/java/lang/ThreadLocal.java">
+    <entry file="file://F:/AndroidStudioSDK/sources/android-27/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="147" column="11" lean-forward="false" selection-start-line="147" selection-start-column="11" selection-end-line="147" selection-end-column="11" />
+        <state relative-caret-position="4066">
+          <caret line="237" column="12" lean-forward="false" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jakewharton.timber/timber/4.7.0/36dd31f8ab061a57391b87512e16772d102759a2/timber-4.7.0-sources.jar!/timber/log/Timber.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/e99b7b608968f16b07104b93e62cb90701174d0/okhttp-3.10.0-sources.jar!/okhttp3/OkHttpClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="376" column="52" lean-forward="true" selection-start-line="376" selection-start-column="52" selection-end-line="376" selection-end-column="52" />
+        <state relative-caret-position="14725">
+          <caret line="888" column="21" lean-forward="false" selection-start-line="888" selection-start-column="21" selection-end-line="888" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.10.0/255a9237ac6ac8ba15bb85006348d3fb0009a866/logging-interceptor-3.10.0-sources.jar!/okhttp3/logging/HttpLoggingInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="115" column="9" lean-forward="false" selection-start-line="115" selection-start-column="9" selection-end-line="115" selection-end-column="9" />
+          <folding>
+            <element signature="e#3255#3256#0" expanded="true" />
+            <element signature="e#3285#3286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/CallInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/CacheInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="3" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/HttpHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2736">
+          <caret line="172" column="38" lean-forward="false" selection-start-line="172" selection-start-column="38" selection-end-line="172" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/sys/TimeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/e99b7b608968f16b07104b93e62cb90701174d0/okhttp-3.10.0-sources.jar!/okhttp3/HttpUrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="1157" column="19" lean-forward="false" selection-start-line="1157" selection-start-column="19" selection-end-line="1157" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/e99b7b608968f16b07104b93e62cb90701174d0/okhttp-3.10.0-sources.jar!/okhttp3/FormBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="29" column="45" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/e99b7b608968f16b07104b93e62cb90701174d0/okhttp-3.10.0-sources.jar!/okhttp3/RequestBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/e99b7b608968f16b07104b93e62cb90701174d0/okhttp-3.10.0-sources.jar!/okhttp3/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="64" column="27" lean-forward="false" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
+          <folding>
+            <element signature="e#1697#1698#0" expanded="true" />
+            <element signature="e#1718#1719#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/string/SpannableUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/string/SHA256Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/string/BaseUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1168">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/string/HexDump.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2161">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/string/MD5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/utils/string/HmacSHA1Encryption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="60" column="25" lean-forward="false" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arms/src/main/java/com/chieveke/arms/data/net/CommonInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="64" column="5" lean-forward="false" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1437#1453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arms/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1911">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

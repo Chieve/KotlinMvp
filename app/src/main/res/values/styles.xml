@@ -1,11 +1,51 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
+    <!-- Base Activity theme. -->
+    <style name="AppActivityTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+
+    <!-- 公共水平线 -->
+    <style name="CommonViewLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/common_line</item>
+    </style>
+
+    <!-- 公共的textView style base -->
+    <style name="CommonTextViewStyleBase">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- 公共的textView style 字体大 深灰色 -->
+    <style name="CommonTextViewDarkBig" parent="CommonTextViewStyleBase">
+        <item name="android:textColor">@color/common_text_gray_dark</item>
+        <item name="android:textSize">@dimen/common_text_size_big</item>
+    </style>
+    <!-- 公共的textView style 字体中 深灰色 -->
+    <style name="CommonTextViewDarkMiddle" parent="CommonTextViewStyleBase">
+        <item name="android:textColor">@color/common_text_gray_dark</item>
+        <item name="android:textSize">@dimen/common_text_size_middle</item>
+    </style>
+
+    <!-- 公共的textView style 字体小 深灰色 -->
+    <style name="CommonTextViewDarkSmall" parent="CommonTextViewStyleBase">
+        <item name="android:textColor">@color/common_text_gray_dark</item>
+        <item name="android:textSize">@dimen/common_text_size_small</item>
+    </style>
+
 
 </resources>

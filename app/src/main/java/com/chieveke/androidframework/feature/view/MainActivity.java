@@ -66,7 +66,7 @@ public class MainActivity extends BaseActivity {
                 startActivity(new Intent(this, RxCacheSampleActivity.class));
                 break;
             case 3:
-                startActivity(new Intent(this, LoginActivity.class));
+                startActivity(new Intent(this, LoginDemoActivity.class));
                 break;
 
         }

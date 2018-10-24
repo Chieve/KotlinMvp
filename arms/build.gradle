@@ -53,6 +53,8 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
 
+//    Android Activity 滑动返回。支持微信滑动返回样式、横屏滑动返回、全屏滑动返回
+    api 'cn.bingoogolapple:bga-swipebacklayout:1.1.9@aar'
 
     api(rootProject.ext.dependencies["appcompat-v7"],{
         exclude module: 'support-annotations'
@@ -68,6 +70,7 @@ dependencies {
     api (rootProject.ext.dependencies["fragmentation"], {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+    api rootProject.ext.dependencies["fragmentation-swipeback"]
     //rx
     api rootProject.ext.dependencies["rxjava2"]
     api(rootProject.ext.dependencies["rxandroid2"], {

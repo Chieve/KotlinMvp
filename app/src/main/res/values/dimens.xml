@@ -1,0 +1,46 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 通用的字体大小 -->
+    <dimen name="common_text_size_small">14sp</dimen>
+    <dimen name="common_text_size_middle">16sp</dimen>
+    <dimen name="common_text_size_big">18sp</dimen>
+    <dimen name="common_text_size_max_big">20sp</dimen>
+
+    <!--通用字体大小-->
+    <dimen name="font_size_4">4sp</dimen>
+    <dimen name="font_size_10">10sp</dimen>
+    <dimen name="font_size_11">11sp</dimen>
+    <dimen name="font_size_12">12sp</dimen>
+    <dimen name="font_size_13">13sp</dimen>
+    <dimen name="font_size_14">14sp</dimen>
+    <dimen name="font_size_15">15sp</dimen>
+    <dimen name="font_size_16">16sp</dimen>
+    <dimen name="font_size_17">17sp</dimen>
+    <dimen name="font_size_18">18sp</dimen>
+    <dimen name="font_size_19">19sp</dimen>
+    <dimen name="font_size_20">20sp</dimen>
+    <dimen name="font_size_22">22sp</dimen>
+    <dimen name="font_size_24">24sp</dimen>
+    <dimen name="font_size_30">30sp</dimen>
+    <dimen name="font_size_38">38sp</dimen>
+
+    <!--尺寸大小-->
+    <dimen name="marge_size_0.5">0.5dp</dimen>
+    <dimen name="marge_size_1">1dp</dimen>
+    <dimen name="marge_size_2">2dp</dimen>
+    <dimen name="marge_size_3">3dp</dimen>
+    <dimen name="marge_size_5">5dp</dimen>
+    <dimen name="marge_size_6">6dp</dimen>
+    <dimen name="marge_size_9">9dp</dimen>
+    <dimen name="marge_size_10">10dp</dimen>
+    <dimen name="marge_size_11">11dp</dimen>
+    <dimen name="marge_size_15">15dp</dimen>
+    <dimen name="marge_size_20">20dp</dimen>
+    <dimen name="marge_size_30">30dp</dimen>
+    <dimen name="marge_size_22">22dp</dimen>
+    <dimen name="marge_size_36">36dp</dimen>
+    <dimen name="marge_size_40">40dp</dimen>
+</resources>
